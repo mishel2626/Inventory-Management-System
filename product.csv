@@ -1,5 +1,2 @@
-Name , price, category, quantity, description, publish, createdAt
-Hoodie,30.0,dimerore, 10, Pambuk100%, true,2024-01-13T19:10:21.885827600
-shirt,15.0,verore, 10, verore, true,2024-01-13T19:10:48.246599900
-jacket,10.0,party, 10, blackandwhite, true,2024-01-13T19:11:12.757855600
-siemens,100.0,laptop, 1, laptop, true,2024-01-13T19:11:51.556791600
+ID, Name , price, category, quantity, description, publish, createdAt
+1, Iphone,400.0,mobile, 3, Apple, yes,2024-01-18T21:02:24.725286100
