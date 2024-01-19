@@ -12,12 +12,11 @@ public class InventoryManagementSystem {
 		System.out.println("Welcome to our Inventory Management App ");
 
 		do {
-			System.out.println("\n1. Add Product");
+			System.out.println("1. Add Product");
 			System.out.println("2. Update Stock");
 			System.out.println("3. Generate Low Stock Notification");
 			System.out.println("4. Display Products");
 			System.out.println("5. Place Order");
-			System.out.println("6. Save and Exit");
 			System.out.println("Enter your choice: ");
 			choice = sc.nextInt();
 			switch (choice) {
