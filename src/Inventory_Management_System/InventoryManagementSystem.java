@@ -12,7 +12,7 @@ public class InventoryManagementSystem {
 		System.out.println("Welcome to our Inventory Management App ");
 
 		do {
-			System.out.println("1. Add Product");
+			System.out.println("\n1. Add Product");
 			System.out.println("2. Update Stock");
 			System.out.println("3. Generate Low Stock Notification");
 			System.out.println("4. Display Products");
@@ -76,9 +76,9 @@ public class InventoryManagementSystem {
 				System.out.println("Invalid choice. Please enter a number between 1 and 5.");
 			}
 
-		} while (choice != 6);
+		} while (choice != 0);
 
-		sc.close();
+		
 	}
 
 }

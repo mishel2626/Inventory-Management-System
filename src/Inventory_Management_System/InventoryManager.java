@@ -25,7 +25,9 @@ public class InventoryManager implements InventoryManagerInterface {
 			if(lines.size() != 1) {
 				lastId = lines.get(lines.size() - 1).split(",")[0].trim();
 			}
-			id = Integer.parseInt(lastId) + 1;
+			if (!lastId.isEmpty()) {
+			    id = Integer.parseInt(lastId) + 1;
+			} 
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
